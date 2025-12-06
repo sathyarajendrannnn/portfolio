@@ -12,9 +12,9 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/project-management.jpg",
+    image: "/assets/projects/luisant.png",
     tags: [
-      { id: 1, name: "Vue.js", path: "/assets/logos/vue.svg" },
+      { id: 1, name: "React.js", path: "/assets/logos/vue.svg" },
       { id: 2, name: "JavaScript", path: "/assets/logos/JavaScript.svg" },
       { id: 3, name: "CSS3", path: "/assets/logos/css3.svg" },
       { id: 4, name: "LocalStorage", path: "/assets/logos/storage.svg" },
@@ -23,29 +23,30 @@ export const myProjects = [
 
   {
     id: 2,
-    title: "Connectivity",
+    title: "LuxDrive – Car Rental System",
     description:
       "A Flutter-based mobile application with complete frontend logic and storage using shared_preferences local storage.",
     subDescription: [
-      "Built with Flutter using Dart for UI and state management",
-      "Used shared_preferences for saving user data locally",
-      "Implemented smooth UI and animations for better UX",
-      "Completely frontend-only without API or backend",
+      "Built a full-stack car rental platform with vehicle browsing, booking, and customer management.",
+      "Implemented JWT authentication and role-based access control for users and admins.",
+      "Developed REST APIs with MongoDB CRUD for cars, bookings, and users.",
+      "Integrated Razorpay payment gateway for secure online payments.",
+      "Seamlessly connected frontend and backend via REST APIs to improve overall user experience.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/flutter-app.jpg",
+    image: "/assets/projects/luxdrive.png",
     tags: [
-      { id: 1, name: "Flutter", path: "/assets/logos/flutter.svg" },
-      { id: 2, name: "Dart", path: "/assets/logos/dart.svg" },
-      { id: 3, name: "UI/UX", path: "/assets/logos/uiux.svg" },
-      { id: 4, name: "Local Storage", path: "/assets/logos/storage.svg" },
+      { id: 1, name: "React.js", path: "/assets/logos/flutter.svg" },
+      { id: 2, name: "Express.js", path: "/assets/logos/dart.svg" },
+      { id: 3, name: "MongoDB", path: "/assets/logos/uiux.svg" },
+      { id: 4, name: "Razorpay", path: "/assets/logos/storage.svg" },
     ],
   },
 
   {
     id: 3,
-    title: "UI & UX Design System",
+    title: "Blink it-Clone UI",
     description:
       "A comprehensive design system and component library for consistent user interfaces across applications.",
     subDescription: [
@@ -56,12 +57,10 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/design-system.jpg",
+    image: "/assets/projects/figma.png",
     tags: [
       { id: 1, name: "Figma", path: "/assets/logos/figma.svg" },
-      { id: 2, name: "Storybook", path: "/assets/logos/storybook.svg" },
-      { id: 3, name: "CSS3", path: "/assets/logos/css3.svg" },
-      { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 2, name: "UI/UX", path: "/assets/logos/uiux.svg" },
     ],
   },
 
@@ -78,7 +77,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/portfolio.jpg",
+    image: "/assets/projects/portfolio.png",
     tags: [
       { id: 1, name: "React", path: "/assets/logos/react.svg" },
       { id: 2, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
